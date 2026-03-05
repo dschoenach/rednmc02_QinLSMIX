@@ -1,6 +1,8 @@
 
 // Input file
+
 title = 'Surface skill scores'
+
 framec='RoyalBlue'
 
 v[0] = ['fc','fbc','podc','podcc','farc','farcc','fac','tsc','c','kc','aic','edsc','sedsc','sedic','etsc','heic','corc']

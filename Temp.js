@@ -1,6 +1,7 @@
 
-v = []; t = []; spec_name = []; mname = [];
+
 title = 'Temp verification' 
+
 framec='Goldenrod'
 
 v[0] = ['V','V_VAR','PS','ps'];

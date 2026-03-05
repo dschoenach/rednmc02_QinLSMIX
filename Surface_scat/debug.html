@@ -1,7 +1,8 @@
 <html><pre>
 
-v = []; t = []; spec_name = []; mname = [];
+
 title = 'Surface scatterplots'
+
 framec='lightcoral'
 
 v[0] = ['s']
@@ -17,13 +18,13 @@ t[4] = ['Mslp','Station pressure','U10m','Max Wind Gust','Wind direction','T2m',
 v[5] = [0]
 v[5] = v[5].reverse()
 t[5] = v[5]
-v[6] = ['rednmc02','QinLSMIX']
-t[6] = ['rednmc02','QinLSMIX']
+v[6] = ['cy46_preop_v2_test','cy46_preop_v2_test_QinLSmix']
+t[6] = ['cy46_preop_v2_test','cy46_preop_v2_test_QinLSmix']
 v[7] = ['ALL'] ;
 t[7] = v[7] ;
 
 mname = ['Type','Period','Station','Selection','Parameter','Level','Exp','Initial time']
-loc = ['l','t','t','t','l','l','t','l']  # loc length matches mname length
+loc = ['l','t','t','t','l','l','t']
 spec_name =[0,1,2,3,7,6,4,5]
 do_debug = false ;
 pdir ='Surface/'
